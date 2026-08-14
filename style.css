@@ -1,3 +1,16 @@
+Nenhum selecionado
+
+Pular para o conteúdo
+Como usar o E-mail de SEED com leitores de tela
+1 de 1.059
+(sem assunto)
+Caixa de entrada
+
+ERICK LUIZ DA SILVA SALDANHA <erick.saldanha@escola.pr.gov.br>
+14:27 (há 0 minuto)
+para mim
+
+Parece que esta mensagem está em inglês
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root{
@@ -91,14 +104,47 @@ body{
 }
 
 .parametro-senha__botao{
-
+background-color: var(--cor-de-fundo);
+color: var(--branco);
+border: 2px solid var(--borda);
+padding: 24px;
+font-size: 24px;
 }
 .parametro-senha__texto{
-
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    padding: 24px;
+    margin: 0px;
 }
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
     }
+}
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+.forca{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+.fraca{
+    width: 25%;
+    background-color: #E71B32; 
+}
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
+.media{
+    background-color: #FAF408;
+    width: 50%;
+}
+.forte{
+    background-color: #00FF85;
+    width: 100%;
 }
